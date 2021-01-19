@@ -1,0 +1,24 @@
+#Calculate distance travelled using user input (distance = speed * time)
+
+#Request user input for speed - convert to integer
+speed = int(input("Enter speed: "))
+
+#create variable for tim (integer)
+time = 5
+
+#define function that returns answer
+def answer():
+    distance = speed * time
+    return str(distance)
+
+
+#print test statements - convert integer to string and call answer function
+print("At " + str(speed) + "mph, the car will travel " + answer() + " miles in " + str(time) + " hours")
+
+time = 8
+
+print("At " + str(speed) + "mph, the car will travel " + answer() + " miles in "  + str(time) + " hours")
+
+time = 12
+
+print("At " + str(speed) + "mph, the car will travel " + answer() + " miles in " + str(time) + " hours")
